@@ -3,7 +3,7 @@ React-Native wrapper for the Amplitude SDK
 ***
 ## Getting started
 ```
-npm install pvamplitudebridge --save
+npm install rnamplitudebridge --save
 ```
 
 ### Include the Amplitude SDK
@@ -18,14 +18,14 @@ $ react-native link pvamplitudebridge
 ### Manual Installation
 ##### iOS
 1. In Xcode, use the project navigator to add files to the `Libraries` folder by right clicking on `Add Files to [your project's name]`
-2. Go to `node_modules` -> `pvamplitudebridge` and add `PVAmplitudeBridge.xcodeproj`
+2. Go to `node_modules` -> `rnamplitudebridge` and add `PVAmplitudeBridge.xcodeproj`
 3. In Xcode, select your project in the project navigator.  Add the `libPVAmplitudeBridge.a` to your project's `Build Phases` -> `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)
 
 ### Usage
 #### Initialize Amplitude
 ```javascript
-import PVAmplitude from 'pvamplitudebridge'
+import PVAmplitude from 'rnamplitudebridge'
 
 PVAmplitude.initializeApiKey("[Enter your Amplitude API key]")
 ```

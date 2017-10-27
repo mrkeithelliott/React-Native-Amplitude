@@ -1,5 +1,5 @@
 {
-  "name": "pvamplitudebridge",
+  "name": "rnamplitudebridge",
   "version": "1.0.0",
   "description": "React-Native Wrapper for Amplitude",
   "main": "index.js",
