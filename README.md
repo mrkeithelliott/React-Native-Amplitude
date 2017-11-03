@@ -12,7 +12,7 @@ Include the Amplitude SDK in your project to make it available to the wrapper (b
 ### Linking the project
 You need to link the pvamplitudebridge project so that it will be reachable in your project.
 ```
-$ react-native link pvamplitudebridge
+$ react-native link rnamplitudebridge
 ```
 
 ### Manual Installation
