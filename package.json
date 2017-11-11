@@ -16,7 +16,7 @@
   ],
   "author": "Keith Elliott",
   "license": "ISC",
-  "peerDependencies": {
+  "dependencies": {
     "react-native": ">=0.40.0"
   }
 }
