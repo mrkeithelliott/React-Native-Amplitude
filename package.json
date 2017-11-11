@@ -15,8 +15,5 @@
     "Amplitude"
   ],
   "author": "Keith Elliott",
-  "license": "ISC",
-  "dependencies": {
-    "react-native": "^0.50.3"
-  }
+  "license": "ISC"
 }
