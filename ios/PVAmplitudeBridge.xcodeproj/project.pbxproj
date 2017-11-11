@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5304BE911FA248C80070C74B /* PVAmplitudeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304BE901FA248C80070C74B /* PVAmplitudeBridge.m */; };
-		5304BE921FA248C80070C74B /* PVAmplitudeBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5304BE8F1FA248C80070C74B /* PVAmplitudeBridge.h */; };
+		53CEFCD11FB6A9FA00342463 /* PVAmplitudeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CEFCD01FB6A9F900342463 /* PVAmplitudeBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				5304BE921FA248C80070C74B /* PVAmplitudeBridge.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		5304BE8C1FA248C80070C74B /* libPVAmplitudeBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPVAmplitudeBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5304BE8F1FA248C80070C74B /* PVAmplitudeBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVAmplitudeBridge.h; sourceTree = "<group>"; };
-		5304BE901FA248C80070C74B /* PVAmplitudeBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVAmplitudeBridge.m; sourceTree = "<group>"; };
+		53CEFCCF1FB6A9F900342463 /* PVAmplitudeBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAmplitudeBridge.h; sourceTree = "<group>"; };
+		53CEFCD01FB6A9F900342463 /* PVAmplitudeBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAmplitudeBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +42,8 @@
 		5304BE831FA248C80070C74B = {
 			isa = PBXGroup;
 			children = (
-				5304BE8E1FA248C80070C74B /* PVAmplitudeBridge */,
+				53CEFCCF1FB6A9F900342463 /* PVAmplitudeBridge.h */,
+				53CEFCD01FB6A9F900342463 /* PVAmplitudeBridge.m */,
 				5304BE8D1FA248C80070C74B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,15 +54,6 @@
 				5304BE8C1FA248C80070C74B /* libPVAmplitudeBridge.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5304BE8E1FA248C80070C74B /* PVAmplitudeBridge */ = {
-			isa = PBXGroup;
-			children = (
-				5304BE8F1FA248C80070C74B /* PVAmplitudeBridge.h */,
-				5304BE901FA248C80070C74B /* PVAmplitudeBridge.m */,
-			);
-			path = PVAmplitudeBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +113,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5304BE911FA248C80070C74B /* PVAmplitudeBridge.m in Sources */,
+				53CEFCD11FB6A9FA00342463 /* PVAmplitudeBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
